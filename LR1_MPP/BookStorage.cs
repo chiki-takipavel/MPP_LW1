@@ -6,7 +6,7 @@ namespace LR1_MPP
     [Serializable]
     public class BookStorage
     {
-        public List<Book> Books { get; set; }
+        public List<Book> Books { get; }
 
         public BookStorage()
         {
